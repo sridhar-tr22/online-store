@@ -33,6 +33,31 @@ public class Product {
 	 */
 	public Product() {
 	}
+	
+	
+
+	/**
+	 * @param productName
+	 * @param productPrice
+	 * @param productDescription
+	 * @param productBrand
+	 * @param categoryType
+	 * @param categorySubtype
+	 * @param productRating
+	 */
+	public Product(String productName, BigDecimal productPrice, String productDescription, String productBrand,
+			String categoryType, String categorySubtype, int productRating) {
+		super();
+		this.productName = productName;
+		this.productPrice = productPrice;
+		this.productDescription = productDescription;
+		this.productBrand = productBrand;
+		this.categoryType = categoryType;
+		this.categorySubtype = categorySubtype;
+		this.productRating = productRating;
+	}
+
+
 
 	public Long getProductId() {
 		return productId;
