@@ -23,7 +23,7 @@ public class Product {
 	private String productDescription;
 	private String productBrand;
 	private String categoryType;
-	private String categoryTypeSubtype;
+	private String categorySubtype;
 	private int productRating;
 
 	/**
@@ -83,11 +83,11 @@ public class Product {
 	}
 
 	public String getCategoryTypeSubtype() {
-		return categoryTypeSubtype;
+		return categorySubtype;
 	}
 
-	public void setCategoryTypeSubtype(String categoryTypeSubtype) {
-		this.categoryTypeSubtype = categoryTypeSubtype;
+	public void setCategoryTypeSubtype(String categorySubtype) {
+		this.categorySubtype = categorySubtype;
 	}
 
 	public int getProductRating() {
